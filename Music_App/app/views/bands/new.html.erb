@@ -1,0 +1,13 @@
+<h2>Band Sign Up</h2>
+
+<form action="<%= bands_url %>" method="POST" >
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>" />
+
+    <label> Band Name 
+        <input type="text" name="band[name]" value="" />
+    </label>
+
+
+    <input type="submit" value="Band Sign Up" />
+
+</form>
