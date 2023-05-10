@@ -25,7 +25,6 @@ body {
     align-items: center;
     font-weight: 400;
     font-size: 20px;
-    fon
 }
 
 #header {
@@ -47,5 +46,12 @@ ul {
 .button {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: flex-end;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
 }
